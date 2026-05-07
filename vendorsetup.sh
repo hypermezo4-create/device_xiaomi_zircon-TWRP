@@ -40,7 +40,7 @@ if [ -f $FOX_MANIFEST_ROOT/bootable/recovery/orangefox_defaults.go -a -f $FOX_MA
     export FOX_PATCH_VBMETA_FLAG=1
 
     # Magisk
-    export FOX_USE_SPECIFIC_MAGISK_ZIP="$FOX_MANIFEST_ROOT/device/xiaomi/zircon/Magisk/Magisk-v25.2.zip"
+    export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v30.7.zip
 
     # Binaries
     export FOX_USE_BASH_SHELL=1
