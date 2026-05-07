@@ -84,6 +84,10 @@ if [ -f $FOX_MANIFEST_ROOT/bootable/recovery/orangefox_defaults.go -a -f $FOX_MA
     export OF_FLASHLIGHT_ENABLE=0
     export TW_MAX_BRIGHTNESS=1200
 
+    # Maintainer & Build Info
+      export FOX_MAINTAINER_PATCH_VERSION="0"
+      export OF_MAINTAINER="Mezo"
+
     if [ -n "$FOX_BUILD_LOG_FILE" -a -f "$FOX_BUILD_LOG_FILE" ]; then
         export | grep "FOX" >>$FOX_BUILD_LOG_FILE
         export | grep "OF_" >>$FOX_BUILD_LOG_FILE
@@ -91,8 +95,6 @@ if [ -f $FOX_MANIFEST_ROOT/bootable/recovery/orangefox_defaults.go -a -f $FOX_MA
         export | grep "TW_" >>$FOX_BUILD_LOG_FILE
     fi
 fi
-  # Maintainer & Build Info
-      export FOX_MAINTAINER_PATCH_VERSION="0"
-      export OF_MAINTAINER="Mezo"
+  
 
 
