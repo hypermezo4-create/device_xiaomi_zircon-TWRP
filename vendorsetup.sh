@@ -58,6 +58,7 @@ if [ "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export FOX_REMOVE_AAPT=1
 	export FOX_USE_BUSYBOX_BINARY=1
 	export FOX_USE_GREP_BINARY=1
+	export FOX_DRASTIC_SIZE_REDUCTION=1
 
 	# KernelSU / Magisk Support
 	# export FOX_DELETE_MAGISK_ADDON=1
