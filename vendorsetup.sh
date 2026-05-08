@@ -61,8 +61,7 @@ if [ "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 
 	# KernelSU / Magisk Support
 	# export FOX_DELETE_MAGISK_ADDON=1
-	export FOX_USE_SPECIFIC_MAGISK_ZIP="$script_path/prebuilt/Magisk-v30.6.zip"
-	export FOX_MOVE_MAGISK_INSTALLER_TO_RAMDISK=1
+	export FOX_USE_SPECIFIC_MAGISK_ZIP=~/Magisk/Magisk-v30.7.zip
 	export FOX_ENABLE_KERNELSU_SUPPORT=1
 	export FOX_ENABLE_KERNELSU_NEXT_SUPPORT=1
 	export FOX_ENABLE_SUKISU_SUPPORT=1
